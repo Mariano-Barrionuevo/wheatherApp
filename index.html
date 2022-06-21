@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,200&display=swap"
+        rel="stylesheet">
+    <title>APP Clima</title>
+</head>
+
+<body onload="onload()">
+
+
+
+
+
+    <!-- <img id="fondo" src="fondos/1003cielo-1324094.jpg" alt=""> -->
+
+    <div id="container">
+        <!-- <img id="imagen" src="fondos/nublado.jpg" alt=""> -->
+        <div class="block b-1">
+            <div id="location"></div>
+
+            <div id="description"></div>
+
+            <div class="tempThree" id="hours"></div>
+
+            <img class="svgimg" id="icono-animado" src="" alt="">
+            <img class="svgimg" id="icono-animado-dos" src="" alt="">
+
+            <div class="information-container">
+                <div class="info" id="temperature"></div>
+                <div class="temp">°</div>
+            </div>
+            <div class="tempThree" id="date"></div>
+            <div class="information-container">
+                <div class="tempThree fino">Sensación térmica</div>
+                <div class="tempThree info" id="feels_like"></div>
+                <div class="tempThree">°</div>
+            </div>
+
+
+
+        </div>
+        <div class="block b-2">
+            <div class="icono">
+                <object data="animated/hot.png"></object>
+                <object data="animated/temperature.png"></object>
+            </div>
+            <div class="tempThree fino">Max. - Min.</div>
+            <div class="information-container">
+                <div id="temp_max"></div>
+                <div class="tempTwo " id="temp_max">°</div>
+                <div class="tempTwo">/</div>
+                <div class="info" id="temp_min"></div>
+                <div class="tempTwo" id="temp_min">°</div>
+            </div>
+            <hr>
+            <div class="iconoTwo">
+                <object data="animated/clouds.png"></object>
+
+            </div>
+            <div class="information-container">
+                <div class="tempThree fino">Nubosidad</div>
+                <div class="info tempThree" id="clouds"></div>
+                <div class="info tempThree">%</div>
+            </div>
+            <hr>
+            <div class="iconoTwo">
+                <object data="animated/wind-power.png"></object>
+            </div>
+            <div class="information-container">
+                <div class="tempThree fino">Viento</div>
+                <div class="info tempThree" id="wind"></div>
+                <div class="info tempThree">km/h</div>
+            </div>
+            <hr>
+            <div class="iconoTwo">
+                <object data="animated/humidity.png"></object>
+            </div>
+            <div class="information-container">
+                <div class="tempThree fino">Humedad</div>
+                <div class="info tempThree" id="humidity"></div>
+                <div class="info tempThree">%</div>
+            </div>
+            <hr>
+            <div class="iconoTwo">
+                <object data="animated/atmospheric.png"></object>
+
+            </div>
+            <div class="information-container">
+                <div class="tempThree fino">Presión</div>
+                <div class="info tempThree" id="pressure"></div>
+                <div class="info tempThree">hPa</div>
+            </div>
+            <hr>
+
+
+
+
+
+        </div>
+    </div>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

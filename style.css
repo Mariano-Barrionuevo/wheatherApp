@@ -1,0 +1,431 @@
+* {
+  
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:rgb(0, 174, 255) ;
+    /* height: 150vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clear {
+    background-image: url(fondos/clear.jpg);
+    background-color:#0e99d2;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+.svgimg2 {
+  -webkit-animation-name: am-weather-sun;
+     -moz-animation-name: am-weather-sun;
+      -ms-animation-name: am-weather-sun;
+          animation-name: am-weather-sun;
+  -webkit-animation-duration: 9s;
+     -moz-animation-duration: 9s;
+      -ms-animation-duration: 9s;
+          animation-duration: 9s;
+  -webkit-animation-timing-function: linear;
+     -moz-animation-timing-function: linear;
+      -ms-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+     -moz-animation-iteration-count: infinite;
+      -ms-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@keyframes am-weather-sun {
+  0% {
+    -webkit-transform: rotate(0deg);
+       -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+       -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+  
+}
+.svgimg4 {
+  -webkit-animation-name: star;
+     -moz-animation-name: star;
+      -ms-animation-name: star;
+          animation-name: star;
+  -webkit-animation-duration: 180s;
+     -moz-animation-duration: 180s;
+      -ms-animation-duration: 180s;
+          animation-duration: 180s;
+  -webkit-animation-timing-function: linear;
+     -moz-animation-timing-function: linear;
+      -ms-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+     -moz-animation-iteration-count: infinite;
+      -ms-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+          
+}
+
+@keyframes star {
+  0% {
+    -webkit-transform: rotate(360deg);
+       -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(0deg);
+       -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  
+  
+}
+.svgimg3 {
+  -webkit-animation-name: am-weather-sun2;
+     -moz-animation-name: am-weather-sun2;
+      -ms-animation-name: am-weather-sun2;
+          animation-name: am-weather-sun2;
+  -webkit-animation-duration: 9s;
+     -moz-animation-duration: 9s;
+      -ms-animation-duration: 9s;
+          animation-duration: 9s;
+  -webkit-animation-timing-function: linear;
+     -moz-animation-timing-function: linear;
+      -ms-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+     -moz-animation-iteration-count: infinite;
+      -ms-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@keyframes am-weather-sun2 {
+  0% {
+    -webkit-transform: rotate(360deg);
+       -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(0deg);
+       -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  
+}
+.movlat {
+  -webkit-animation-name: am-weather-cloud-2;
+     -moz-animation-name: am-weather-cloud-2;
+          animation-name: am-weather-cloud-2;
+  -webkit-animation-duration: 3s;
+     -moz-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-timing-function: linear;
+     -moz-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+     -moz-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@keyframes am-weather-cloud-2 {
+  0% {
+    -webkit-transform: translate(0px,0px);
+       -moz-transform: translate(0px,0px);
+        -ms-transform: translate(0px,0px);
+            transform: translate(0px,0px);
+  }
+
+  50% {
+    -webkit-transform: translate(5px,0px);
+       -moz-transform: translate(5px,0px);
+        -ms-transform: translate(5px,0px);
+            transform: translate(5px,0px);
+  }
+
+  100% {
+    -webkit-transform: translate(0px,0px);
+       -moz-transform: translate(0px,0px);
+        -ms-transform: translate(0px,0px);
+            transform: translate(0px,0px);
+  }
+}
+.rayo {
+    -webkit-animation-name: animacion-rayo;
+     -moz-animation-name: animacion-rayo;
+          animation-name: animacion-rayo;
+  -webkit-animation-duration: 0.5s;
+     -moz-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-timing-function: linear;
+     -moz-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+     -moz-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+@keyframes animacion-rayo {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.clearNight {
+    background-image: url(fondos/noche\ clara.jpg);
+    background-color:rgb(0, 0, 0);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+.amanecer {
+    background-image: url(fondos/AmanecerDesdeElGarbí.jpg);
+    background-color:rgb(0, 0, 0);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+.atardecer {
+    background-image: url(fondos/atardecer.png);
+    background-color:rgb(0, 0, 0);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+.diaNublado {
+    background-image: url(fondos/nublado.jpg);
+    background-color:rgb(0, 0, 0);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.nocheNublada {
+    background-image: url(fondos/nochenublada.jpg);
+    background-color:rgb(0, 0, 0);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+.tormenta {
+    background-image: url(fondos/tormenta.jpg);
+    background-color:rgb(0, 0, 0);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+.llovizna {
+    background-image: url(fondos/llovizna.jpg);
+    background-color:rgb(0, 0, 0);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+.nieve {
+    background-image: url(fondos/nieve1.jpg);
+    background-color:rgb(0, 0, 0);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+.lluvia {
+    background-image: url(fondos/lluviadia.jpg);
+    background-color:rgb(0, 0, 0);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+/* ------------------------------------------------- */
+#container {
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    padding: 10px;
+    
+    display: flex; 
+    text-align: center;
+    position: relative;
+    max-height: 500px;
+}
+/* #imagen {
+    position: absolute;
+    opacity: 0.6;
+} */
+#container > .block {
+    padding: 50px;
+    border-radius: 10px;
+    margin: 5px;
+/* position: relative; */
+
+}
+
+.block {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.information-container {
+    justify-content: center;
+    display: flex;
+}
+
+.info {
+    margin-left: 5px;
+}
+.infoTwo {
+    margin-left: 20px;
+}
+
+#location {
+    font-weight: 400;
+    font-size: 50px;
+    color: whitesmoke;
+    margin-top: -25px;
+}
+#icono-animado {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top: 0px;
+    left : 55px;
+    z-index: 1;
+}
+#icono-animado-dos {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    right: 50px;
+    z-index: 2;
+}
+.svgimg {
+    margin-top: 30px;
+    filter:drop-shadow(
+        0 0 30px rgb(255, 255, 255));
+}
+
+#temperature {
+    margin-top: 20px;
+    font-size: 80px;
+    font-weight: 300;
+    font-family: 'Barlow', sans-serif;
+
+}
+.temp {
+    margin-top: 30px;
+    font-size: 30px;
+}
+#description {
+    font-size: 25px;
+    font-weight: 100;
+}
+#hours { 
+    font-family: 'Barlow', sans-serif;
+    font-size: 30px;
+}
+
+#temp_max {
+    font-size: 20px;
+    color: rgb(241, 59, 59);
+}
+#temp_min {
+    font-size: 20px;
+    color: rgb(22, 171, 240);
+}
+.tempTwo {
+    font-size: 20px;
+    margin-left: 5px;
+}
+.tempThree {
+    font-size: 20px;
+}
+.fino {
+    font-weight: 100;
+}
+.icono {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 5px;
+}
+
+.iconoTwo {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 5px;
+}
+hr {
+    width: 80%;
+}
+
+.icono:hover,
+.iconoTwo:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+/* ---------------------------------------------------------------------------------------------- */
+
+@media (max-width: 720px) {
+  #container {
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    padding: 50px;
+    border-radius: 10px;
+    display: block; 
+    text-align: center;
+    position: relative;
+    max-height: 600px;
+    
+}
+  }
+  #icono-animado {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    top: 0px;
+    left : 45px;
+    z-index: 1;
+}
+#icono-animado-dos {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    right: 40px;
+    z-index: 2;
+}
+
+  @media (max-width: 800px) {
+ #location {
+    
+    font-size: 35px;
+    
+ }
+  }
