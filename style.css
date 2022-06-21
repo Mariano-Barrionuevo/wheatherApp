@@ -397,7 +397,7 @@ hr {
 @media (max-width: 720px) {
   #container {
     /* background-color: rgba(0, 0, 0, 0.5); */
-    padding: 50px;
+    padding: 30px;
     border-radius: 10px;
     display: block; 
     text-align: center;
